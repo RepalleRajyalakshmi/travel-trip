@@ -1,0 +1,83 @@
+.guests-card {
+  background-color: white;
+
+  width: 500px;
+
+  margin: auto;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+.heading {
+  color: #1e293b;
+
+  font-size: 28px;
+}
+
+.guest-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.counter-container {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+}
+
+.count-button {
+  width: 35px;
+
+  height: 35px;
+
+  border: none;
+
+  background-color: #2563eb;
+
+  color: white;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-size: 18px;
+}
+
+.count {
+  font-size: 18px;
+
+  font-weight: bold;
+}
+
+.buttons-container {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}

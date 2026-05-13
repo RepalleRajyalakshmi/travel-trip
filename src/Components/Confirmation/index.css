@@ -1,0 +1,59 @@
+.confirmation-card {
+  background-color: white;
+
+  width: 500px;
+
+  margin: auto;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+.heading {
+  color: #1e293b;
+
+  font-size: 28px;
+}
+
+.details-container {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.label {
+  font-weight: bold;
+
+  margin-right: 10px;
+
+  color: #2563eb;
+}
+
+.buttons-container {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}

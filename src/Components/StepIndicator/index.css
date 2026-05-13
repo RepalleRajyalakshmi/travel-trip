@@ -1,0 +1,64 @@
+.steps-container {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+  margin-bottom: 40px;
+
+  flex-wrap: wrap;
+}
+
+.step-item {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+.active-step,
+.inactive-step {
+  width: 40px;
+
+  height: 40px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-weight: bold;
+
+  color: white;
+}
+
+.active-step {
+  background-color: #2563eb;
+}
+
+.inactive-step {
+  background-color: #94a3b8;
+}
+
+.active-text {
+  color: #2563eb;
+
+  font-weight: bold;
+}
+
+.inactive-text {
+  color: #64748b;
+}
+
+.success-image {
+  width: 40px;
+
+  height: 40px;
+}
