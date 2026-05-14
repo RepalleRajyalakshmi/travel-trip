@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-import Places from "../../components/Places";
+import Places from "../../Components/Places";
 
 import "./index.css";
 
