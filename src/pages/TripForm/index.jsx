@@ -2,13 +2,13 @@ import { useState } from "react";
 
 import "../../App.css";
 
-import StepIndicator from "../../components/StepIndicator";
-import YourDetails from "../../components/YourDetails";
-import DateSelection from "../../components/DateSelection";
-import Guests from "../../components/Guests";
-import TravelAssistance from "../../components/TravelAssistance";
-import Confirmation from "../../components/Confirmation";
-import Success from "../../components/Success";
+import StepIndicator from "../../Components/StepIndicator";
+import YourDetails from "../../Components/YourDetails";
+import DateSelection from "../../Components/DateSelection";
+import Guests from "../../Components/Guests";
+import TravelAssistance from "../../Components/TravelAssistance";
+import Confirmation from "../../Components/Confirmation";
+import Success from "../../Components/Success";
 
 function TripForm() {
   const [step, setStep] = useState(1);
