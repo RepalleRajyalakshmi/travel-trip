@@ -1,25 +1,27 @@
 .details-card {
-  background-color: white;
+  width: 460px;
 
-  width: 500px;
+  margin: 50px auto;
 
-  margin: auto;
+  padding: 35px;
 
-  padding: 30px;
+  border-radius: 28px;
 
-  border-radius: 10px;
+  background: linear-gradient(135deg, #ffffff, #fdf2f8, #eef2ff);
 
-  display: flex;
-
-  flex-direction: column;
-
-  gap: 20px;
+  box-shadow: 0px 12px 30px rgba(139, 92, 246, 0.18);
 }
 
 .heading {
-  color: #144ca4;
+  text-align: center;
 
-  font-size: 28px;
+  font-size: 40px;
+
+  color: #7c3aed;
+
+  margin-bottom: 30px;
+
+  font-weight: bold;
 }
 
 .input-container {
@@ -27,41 +29,78 @@
 
   flex-direction: column;
 
-  gap: 8px;
+  margin-bottom: 22px;
 }
 
 .label {
-  color: #1d2127;
+  font-size: 17px;
 
-  font-weight: 500;
+  color: #4c1d95;
+
+  margin-bottom: 8px;
+
+  font-weight: 600;
 }
 
 .input {
-  padding: 10px;
+  height: 50px;
+  color: black;
 
-  border: 1px solid #cbd5e1;
+  border: 2px solid #ddd6fe;
 
-  border-radius: 5px;
+  border-radius: 14px;
+
+  padding-left: 15px;
+
+  font-size: 16px;
 
   outline: none;
+
+  background-color: #ffffff;
+
+  transition: 0.3s;
+}
+
+.input:focus {
+  border-color: #8b5cf6;
+
+  box-shadow: 0px 0px 10px rgba(139, 92, 246, 0.3);
 }
 
 .error {
-  color: red;
+  color: #dc2626;
 
   font-size: 14px;
+
+  margin-top: 6px;
 }
 
 .next-button {
-  background-color: #2563eb;
+  width: 100%;
 
-  color: white;
+  height: 52px;
 
   border: none;
 
-  padding: 12px;
+  border-radius: 14px;
 
-  border-radius: 5px;
+  background: linear-gradient(to right, #8b5cf6, #ec4899);
+
+  color: rgb(11, 11, 11);
+
+  font-size: 18px;
+
+  font-weight: bold;
 
   cursor: pointer;
+
+  transition: 0.3s;
+
+  margin-top: 12px;
+}
+
+.next-button:hover {
+  transform: translateY(-2px);
+
+  opacity: 0.95;
 }

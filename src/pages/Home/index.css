@@ -1,0 +1,35 @@
+.home-container {
+  min-height: 100vh;
+
+  background-color: #dbeafe;
+
+  padding: 20px;
+}
+
+.logout-container {
+  display: flex;
+
+  justify-content: flex-end;
+
+  margin-bottom: 20px;
+}
+
+.logout-button {
+  background-color: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #1d4ed8;
+}

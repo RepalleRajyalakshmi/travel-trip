@@ -3,7 +3,7 @@
 
   width: 500px;
 
-  margin: auto;
+  margin: 40px auto 0px auto;
 
   padding: 30px;
 
@@ -55,7 +55,7 @@ select {
 .button {
   background-color: #2563eb;
 
-  color: white;
+  color: rgb(11, 11, 11);
 
   border: none;
 

@@ -1,0 +1,17 @@
+.notfound-container {
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background-color: #dbeafe;
+}
+
+.notfound-heading {
+  color: #1e293b;
+
+  font-size: 40px;
+}

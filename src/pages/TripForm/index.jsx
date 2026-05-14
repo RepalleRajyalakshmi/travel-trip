@@ -1,17 +1,16 @@
 import { useState } from "react";
 
-import "./App.css";
+import "../../App.css";
 
-import StepIndicator from "./components/StepIndicator";
-import YourDetails from "./components/YourDetails";
-import DateSelection from "./components/DateSelection";
-import Guests from "./components/Guests";
-import TravelAssistance from "./components/TravelAssistance";
-import Confirmation from "./components/Confirmation";
-import Success from "./components/Success";
-import Places from "./components/Places";
+import StepIndicator from "../../components/StepIndicator";
+import YourDetails from "../../components/YourDetails";
+import DateSelection from "../../components/DateSelection";
+import Guests from "../../components/Guests";
+import TravelAssistance from "../../components/TravelAssistance";
+import Confirmation from "../../components/Confirmation";
+import Success from "../../components/Success";
 
-function App() {
+function TripForm() {
   const [step, setStep] = useState(1);
 
   const [formData, setFormData] = useState({
@@ -46,8 +45,6 @@ function App() {
 
   return (
     <div className="app-container">
-      <Places />
-
       <StepIndicator step={step} />
 
       {step === 1 && (
@@ -95,4 +92,4 @@ function App() {
   );
 }
 
-export default App;
+export default TripForm;
